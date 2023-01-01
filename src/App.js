@@ -46,18 +46,25 @@ function App() {
       <Navbar className="my-2" color="secondary" dark>
         <NavbarBrand href="/">Delivery free for products over 20 €</NavbarBrand>
       </Navbar>
-      <h1
-        id="bistroName"
+      <div id="cart-display">
+        <div>
+          <div id="cart">🛒</div>
+          <div id="no-items">cart items: {amount}</div>
+        </div>
+      </div>
+      <div
+        id="bistro"
         onClick={() => {
           navigate("/home");
         }}
       >
-        Bistro Flamingo ...........you got {amount} products in your cart
-      </h1>
+        <div id="mascot">🦩</div>
+        <h1 id="bistroName">Bistro Flamingo</h1>
+      </div>
       <h3 id="bistroDescription">
         Hey there, time to have a bite! Take a break and head to our store to
-        treat yourself to our fine products. Or even better: Have it delivered
-        to you.
+        treat yourself to our fine products. <br /> Or even better: Have it
+        delivered to you.
       </h3>
       <Routes>
         <Route
