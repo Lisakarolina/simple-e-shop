@@ -16,20 +16,14 @@ import macarons from "./img/macarons.jpg";
 
 function Gallery(props) {
   const navigate = useNavigate();
-  // props
-  //let imgs = [baklava, berrycake, macarons];
   const imgs = useLocation().state;
   const path = useLocation();
-  console.log("im in gallery");
   return (
     <div id="card-container">
       {imgs.map((item, i) => (
-        // props.items
-
         <Card
           onClick={() => {
             console.log("navigating...");
-            //<Navigate to="/somewhere" />;
             console.log(path.pathname);
             navigate(`${path.pathname}/${item.name}`, {
               state: { name: item.name, img: item.img },

@@ -10,23 +10,10 @@ import {
   Button,
   Input,
 } from "reactstrap";
-// import baklava from "./img/baklava.jpg";
-// import berrycake from "./img/berrycake.jpg";
-// import macarons from "./img/macarons.jpg";
 
 function SingleProduct(props) {
-  //const navigate = useNavigate();
-  // props
   const productItem = useLocation().state;
   const [amount, setAmount] = useState(0);
-  //let imgs = [baklava, berrycake, macarons];
-  console.log("im in SingleProduct");
-
-  // useEffect(() => {
-  //   //rerender when state has changed
-  //   setScore((value) => value + 1);
-  //   //allocateImages();
-  // }, [amount]);
 
   return (
     <div id="single-view-container">
@@ -34,8 +21,8 @@ function SingleProduct(props) {
         <img className="singleView" src={productItem.img}></img>
       </div>
       <div id="right-side">
-        <div>{productItem.name}</div>
-        <div>Description Description Description</div>
+        <h3 id="item-name">{productItem.name}</h3>
+        <div>Description praising product</div>
         <div>Prize: 3.78 €</div>
         <div>
           <Input
@@ -50,16 +37,9 @@ function SingleProduct(props) {
             Add to cart !
           </Button>
         </div>
-        you got {amount} products in your cart
       </div>
     </div>
   );
-  // onClick={() => {
-  //   setAmount(
-  //     (value) =>
-  //       value + parseInt(document.getElementById("amount").value)
-  //   );
-  // }}
 }
 
 export default SingleProduct;

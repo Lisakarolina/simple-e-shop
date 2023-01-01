@@ -28,7 +28,6 @@ img {
 
 .card {
   margin: 50px;
-  /* width: 1000px !important; */
 }
 
 .card-container-home .card img {
@@ -58,6 +57,19 @@ img {
 
 #single-view-container {
   display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#left-side {
+  margin-left: 10%;
+  margin-right: 30px;
+}
+
+#right-side div,
+#right-side button,
+#right-side input {
+  margin-bottom: 10px;
 }
 
 #showAll {
@@ -85,7 +97,6 @@ img {
 
 #bistroName {
   font-family: "Open Sans";
-  /* margin: 100px 10%; */
   cursor: pointer;
   font-size: 100px;
 }
