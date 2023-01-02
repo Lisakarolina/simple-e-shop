@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/simple-e-shop/static/css/main.a6e5576e.css",
+    "main.js": "/simple-e-shop/static/js/main.0797affc.js",
+    "static/media/juice.jpg": "/simple-e-shop/static/media/juice.929c00a2c801a945136d.jpg",
+    "static/media/desserts.jpg": "/simple-e-shop/static/media/desserts.5cf04dc643cb1b776c57.jpg",
+    "static/media/rucolapizza.jpg": "/simple-e-shop/static/media/rucolapizza.481a697d1808a4ee82d7.jpg",
+    "static/media/salamipizza.jpg": "/simple-e-shop/static/media/salamipizza.555bfdf659bd3442cbd0.jpg",
+    "static/media/baklava.jpg": "/simple-e-shop/static/media/baklava.a3d17abe25f4bc75b3db.jpg",
+    "static/media/pizza.jpg": "/simple-e-shop/static/media/pizza.fa404be27f3d38ae2d8b.jpg",
+    "static/media/spinachpizza.jpg": "/simple-e-shop/static/media/spinachpizza.ee7061fda4d44b7d8abf.jpg",
+    "static/media/melonjuice.jpg": "/simple-e-shop/static/media/melonjuice.cd19fe80c55579670b62.jpg",
+    "static/media/prosciuttopizza.jpg": "/simple-e-shop/static/media/prosciuttopizza.1efc2d09f1636c6235aa.jpg",
+    "static/media/tiramisu.jpg": "/simple-e-shop/static/media/tiramisu.2bcadddadc686ccac38d.jpg",
+    "static/media/berrycake.jpg": "/simple-e-shop/static/media/berrycake.1931e69ffbbf4cff493e.jpg",
+    "static/media/macarons.jpg": "/simple-e-shop/static/media/macarons.391f9799ce28a7f52f3a.jpg",
+    "static/media/strawberryjuice.jpg": "/simple-e-shop/static/media/strawberryjuice.bd4558059d3fa967dbcb.jpg",
+    "static/media/happyjuice.jpg": "/simple-e-shop/static/media/happyjuice.ce182fd1f5bc338a174e.jpg",
+    "index.html": "/simple-e-shop/index.html",
+    "main.a6e5576e.css.map": "/simple-e-shop/static/css/main.a6e5576e.css.map",
+    "main.0797affc.js.map": "/simple-e-shop/static/js/main.0797affc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6e5576e.css",
+    "static/js/main.0797affc.js"
+  ]
+}
