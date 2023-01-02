@@ -9,3 +9,7 @@ The images are royalty-free and taken from pexels.com.
 # Screen shot of the food Categories
 
 ![flamingo_1](https://user-images.githubusercontent.com/44520955/210184288-2467ad9b-4d06-4ede-b30a-ed57a0cecd2c.png)
+
+
+# Live instance
+You can see a live version of the app <a href="https://lisakarolina.github.io/simple-e-shop/" title="simple web shop">here</a>
