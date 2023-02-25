@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simple-e-shop/static/css/main.a6e5576e.css",
-    "main.js": "/simple-e-shop/static/js/main.0797affc.js",
+    "main.js": "/simple-e-shop/static/js/main.8932ce35.js",
     "static/media/juice.jpg": "/simple-e-shop/static/media/juice.929c00a2c801a945136d.jpg",
     "static/media/desserts.jpg": "/simple-e-shop/static/media/desserts.5cf04dc643cb1b776c57.jpg",
     "static/media/rucolapizza.jpg": "/simple-e-shop/static/media/rucolapizza.481a697d1808a4ee82d7.jpg",
@@ -18,10 +18,10 @@
     "static/media/happyjuice.jpg": "/simple-e-shop/static/media/happyjuice.ce182fd1f5bc338a174e.jpg",
     "index.html": "/simple-e-shop/index.html",
     "main.a6e5576e.css.map": "/simple-e-shop/static/css/main.a6e5576e.css.map",
-    "main.0797affc.js.map": "/simple-e-shop/static/js/main.0797affc.js.map"
+    "main.8932ce35.js.map": "/simple-e-shop/static/js/main.8932ce35.js.map"
   },
   "entrypoints": [
     "static/css/main.a6e5576e.css",
-    "static/js/main.0797affc.js"
+    "static/js/main.8932ce35.js"
   ]
 }
