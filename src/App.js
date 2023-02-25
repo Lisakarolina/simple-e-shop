@@ -44,6 +44,13 @@ function App() {
   return (
     <div>
       <Navbar className="my-2" color="secondary" dark>
+        <Button
+          onClick={() => {
+            navigate("/home");
+          }}
+        >
+          Home
+        </Button>
         <NavbarBrand href="/">Delivery free for products over 20 €</NavbarBrand>
       </Navbar>
       <div id="cart-display">
